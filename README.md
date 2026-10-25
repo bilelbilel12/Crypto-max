@@ -1,4 +1,4 @@
-# Crypto Max V10 — Android project
+ # Crypto Max V10 — Android project
 
 Crypto Max is an offline-first personal organizer for tracking free crypto-reward opportunities. It is **not** a wallet, exchange, automatic airdrop claimer, or source of guaranteed income.
 
