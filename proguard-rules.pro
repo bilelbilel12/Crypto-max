@@ -1,1 +1,1 @@
-# No custom shrinking rules are needed for this WebView-based app.
+# Crypto Max V26

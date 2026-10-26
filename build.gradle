@@ -2,19 +2,16 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
-
 android {
     namespace 'com.cryptomax.app'
     compileSdk 35
-
     defaultConfig {
         applicationId 'com.cryptomax.app'
         minSdk 23
         targetSdk 35
-        versionCode 10
-        versionName '10.0'
+        versionCode 26
+        versionName '26.0'
     }
-
     buildTypes {
         debug { applicationIdSuffix '.debug' }
         release {

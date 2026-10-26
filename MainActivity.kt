@@ -19,7 +19,6 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
         window.statusBarColor = Color.rgb(7, 11, 18)
         window.navigationBarColor = Color.rgb(7, 11, 18)
-        window.decorView.systemUiVisibility = 0
         window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
 
         webView = WebView(this)
@@ -31,9 +30,9 @@ class MainActivity : Activity() {
         webView.settings.cacheMode = WebSettings.LOAD_DEFAULT
         webView.settings.allowFileAccess = true
         webView.settings.allowContentAccess = false
-        webView.settings.mixedContentMode = WebSettings.MIXED_CONTENT_NEVER_ALLOW
         webView.overScrollMode = View.OVER_SCROLL_NEVER
         setContentView(webView)
+
         if (savedInstanceState == null) {
             webView.loadUrl("file:///android_asset/index.html")
         } else {
