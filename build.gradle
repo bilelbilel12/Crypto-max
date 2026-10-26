@@ -1,27 +1,4 @@
 plugins {
-    id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
-}
-android {
-    namespace 'com.cryptomax.app'
-    compileSdk 35
-    defaultConfig {
-        applicationId 'com.cryptomax.app'
-        minSdk 23
-        targetSdk 35
-        versionCode 26
-        versionName '26.0'
-    }
-    buildTypes {
-        debug { applicationIdSuffix '.debug' }
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-    kotlinOptions { jvmTarget = '17' }
+    id 'com.android.application' version '8.7.3' apply false
+    id 'org.jetbrains.kotlin.android' version '2.0.21' apply false
 }
